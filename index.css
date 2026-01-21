@@ -1,0 +1,44 @@
+/* Page background & font */
+body {
+  font-family: "Bitcount Single", system-ui;
+  background-color: #0f172a;
+  color: #e5e7eb;
+  margin: 0;
+  padding: 0;
+}
+
+/* Sections*/
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+/* Headings */
+h1,
+h2 {
+  color: #38bdf8;
+  font-weight: bold;
+}
+.profile-pic {
+  display: block;
+  margin: 20px auto;
+  width: 180px;
+  border-radius: 50%;
+  border: 4px solid #38bdf8;
+}
+
+/* Connect */
+.connect a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #1e293b;
+  border-radius: 8px;
+  color: #38bdf8;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.connect a:hover {
+  background-color: #334155;
+}
