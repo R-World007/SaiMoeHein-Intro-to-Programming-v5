@@ -6,14 +6,35 @@ body {
   margin: 0;
   padding: 0;
 }
-
+/* Navigation */
+header {
+  position: sticky;
+  top: 0;
+  background-color: #020617;
+  z-index: 1000;
+}
 /* Sections*/
 section {
   padding: 20px;
   margin: 20px auto;
   max-width: 800px;
 }
-
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+.nav-links a {
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+}
 /* Headings */
 h1,
 h2 {
@@ -29,6 +50,7 @@ h2 {
 }
 
 /* Connect */
+
 .connect a {
   display: inline-block;
   padding: 10px 15px;
