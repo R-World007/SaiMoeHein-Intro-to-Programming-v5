@@ -77,3 +77,34 @@ h2 {
 .connect a:hover {
   background-color: #334155;
 }
+
+/* =========================
+            Mobile
+   ========================= 
+*/
+@media (max-width: 480px) {
+  .nav-links {
+    flex-direction: column; /* change 1 */
+    align-items: center;    /* change 2 */
+    gap: 12px;              /* change 3 */
+  }
+    /* Make Connect responsive on mobile */
+  .connect {
+    flex-direction: column;   /* change 1 */
+    gap: 12px;                /* change 2 */
+  }
+
+  .connect a {
+    width: 100%;              /* change 1 */
+    max-width: 260px;         /* change 2 */
+  }
+}
+
+/* =========================
+          Tablet Styles
+   ========================= */
+@media (max-width: 768px) { 
+  .nav-links { 
+    gap: 16px; /* change 1 */ 
+    flex-wrap: wrap; /* change 2 */ 
+  } }
