@@ -96,17 +96,17 @@ h2 {
   .nav-links {
     flex-direction: column; /* change 1 */
     align-items: center; /* change 2 */
-    gap: 12px; /* change 3 */
+    gap: 0.75rem; /* change 3 */
   }
   /* Make Connect responsive on mobile */
   .connect {
     flex-direction: column; /* change 1 */
-    gap: 12px; /* change 2 */
+    gap: 0.75rem; /* change 2 */
   }
 
   .connect a {
     width: 100%; /* change 1 */
-    max-width: 260px; /* change 2 */
+    max-width: 16.25rem; /* change 2 */
   }
 }
 
@@ -115,7 +115,7 @@ h2 {
    ========================= */
 @media (max-width: 768px) {
   .nav-links {
-    gap: 16px; /* change 1 */
+    gap: 1rem; /* change 1 */
     flex-wrap: wrap; /* change 2 */
   }
   section {
