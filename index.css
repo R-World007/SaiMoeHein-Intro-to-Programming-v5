@@ -64,6 +64,22 @@ h2 {
   flex-direction: column;
   gap: 0.75rem;
 }
+/* skill section */
+#Skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  list-style: none;
+  padding: 0;
+}
+
+#Skills ul li {
+  background-color: #1e293b;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: #38bdf8;
+  font-weight: bold;
+}
 
 /* Connect section */
 .connect {
@@ -86,6 +102,18 @@ h2 {
 
 .connect a:hover {
   background-color: #334155;
+}
+/* footer section */
+footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0;
+  color: #38bdf8;
+  font-weight: bold;
 }
 
 /* =========================
