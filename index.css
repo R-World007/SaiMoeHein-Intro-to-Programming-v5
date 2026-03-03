@@ -81,6 +81,24 @@ h2 {
   font-weight: bold;
 }
 
+/* Projects section */
+#Projects ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+#Projects ul li {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  color: #e2e8f0;
+  overflow-wrap: anywhere;
+}
+
 /* Connect section */
 .connect {
   display: flex;
@@ -201,6 +219,10 @@ footer p {
     width: 100%; /* change 1 */
     max-width: 16.25rem; /* change 2 */
   }
+
+  #Projects ul {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* =========================
@@ -223,5 +245,9 @@ footer p {
   h2 {
     font-size: 1.4rem; /* change 1 */
     text-align: center; /* change 2 */
+  }
+
+  #Projects ul {
+    grid-template-columns: 1fr;
   }
 }
